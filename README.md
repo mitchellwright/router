@@ -12,22 +12,11 @@ Before starting, ensure you have the following:
 
 - An account with [Resend](https://resend.com/)
 - An account with [Vercel](https://vercel.com/)
+- A PostgreSQL database (we recommend [Vercel Postgres](https://vercel.com/docs/storage/vercel-postgres))
 
 ## Environment Variables
 
-Create a `.env` file in the root of your project and add the following environment variables:
-RESEND_API_KEY=your_resend_api_key
-NEXTAUTH_SECRET=your_nextauth_secret
-NEXTAUTH_URL=your_nextauth_url
-
-POSTGRES_URL=your_postgres_url
-POSTGRES_PRISMA_URL=your_postgres_prisma_url
-POSTGRES_URL_NO_SSL=your_postgres_url_no_ssl
-POSTGRES_URL_NON_POOLING=your_postgres_url_non_pooling
-POSTGRES_USER=your_postgres_user
-POSTGRES_HOST=your_postgres_host
-POSTGRES_PASSWORD=your_postgres_password
-POSTGRES_DATABASE=your_postgres_database
+After creating your accounts, update your `.env.example` to be `.env.local` for running the application locally. Then update the keys for each value.
 
 ## Step-by-Step Instructions
 
