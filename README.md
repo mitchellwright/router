@@ -4,7 +4,7 @@
 
 This is a simple router for forms.
 
-## Self-Hosting router
+# Self-Hosting router
 
 ## Prerequisites
 
